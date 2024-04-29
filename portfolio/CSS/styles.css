@@ -1,0 +1,233 @@
+/* Color Palette
+
+Misty Rose- #F9E0D9
+Rose Taupe- #7D6167
+Eggplant- #5D4954
+Dimgrey- #696969
+
+*/
+
+
+
+/* GLOBAL */
+
+
+
+
+
+body  {
+    background-color: #F9E0D9;
+    margin: 0;
+    max-width: 800 px;
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+html, body  {
+    height: 100%;
+}
+
+h1  {
+    color: #5D4954 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    text-shadow: 2px 2px #696969;
+    
+    
+}
+
+h2  {
+    color: #5D4954;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+    
+    
+
+
+/* HEADER */
+
+header  {
+    
+    text-align: right;
+    padding-right: 2%;
+    border-bottom: solid 2px #5D4954;
+}
+
+/* NAVIGATION */
+
+nav ul  {
+    list-style-type: none;
+    display: block;
+    
+    
+}
+nav ul li  {
+    display: inline-block;
+    position: relative;
+    background: #5D4954;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+    
+
+
+/* MAIN PAGE CONTENT*/
+main  {
+    text-align: center;
+    color: #5D4954;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4.5 em;
+}
+
+#home img  {
+    max-width: 30%;
+    float: left;
+    padding: 2%;
+
+}
+
+
+/* LINKS */
+
+a  {
+    color: floralwhite;
+    text-decoration: none;
+}
+
+
+
+
+/* PROJECTS */
+
+.grid  {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-gap: 50px;
+    justify-content: space-evenly;
+}
+
+.project img  {
+    height: 200px;
+    max-width: 100%;
+}
+
+#sprout img {
+    height: 300px;
+    max-width: 100%;
+}
+
+#mediview img  {
+    height: 200px;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT PAGE */
+
+
+#contact  {
+    display: grid;
+    padding: 20px;
+    min-width: 50%;
+    
+    
+}
+
+
+form  {
+    margin: 30px;
+    justify-self: center;
+    width: 50%;
+    
+    
+    
+}
+fieldset  {
+    padding: 40px;
+    display: grid;
+}
+
+label  {
+    color: #5D4954;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+input  {
+    border: solid 2px #5D4954;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+textarea  {
+    border: solid 2px #5D4954;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 50%;
+    max-width: 100%;
+}
+#submit  {
+    color: #F9E0D9;
+    background-color: #5D4954;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    justify-self: center;
+    
+}
+
+
+/* EDUCATION */
+
+
+
+/* FOOTER */
+
+footer  {
+    background-color: #5D4954;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    
+    
+}
+
+footer ul li img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+footer ul  {
+    list-style-type: none;
+    justify-content: center;
+    
+
+}
+footer li  {
+    display: inline-block;
+
+}
